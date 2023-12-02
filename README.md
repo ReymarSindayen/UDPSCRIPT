@@ -1,1 +1,1 @@
-# CC
+# RSPH VPN UDP SCRIPT
