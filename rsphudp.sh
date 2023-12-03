@@ -1,8 +1,8 @@
  #!/usr/bin/env bash
 #
-# Try `install_RSPHudp.sh --help` for usage.
+# Try `install_rsphudp.sh --help` for usage.
 #
-# (c) 2023 Khaled RSPH
+# (c) 2023 RSPH UDP HYSTERIA
 #
 
 set -e
@@ -13,7 +13,7 @@ set -e
 ###
 
 # Domain Name
-DOMAIN="vpn.khaledRSPH.com"
+DOMAIN="vpn.rsphvpn.com"
 
 # PROTOCOL
 PROTOCOL="udp"
@@ -890,7 +890,7 @@ perform_install() {
 								restart_running_services
 								start_services
 								echo
-								echo -e "$(tbold)RSPH - UDP has been Successfully Update to $VERSION.$(treset)"
+								echo -e "$(tbold)Congratulation! RSPH-UDP has been successfully installed on your server.$VERSION.$(treset)"
 								echo
 								fi
 }
