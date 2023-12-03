@@ -22,10 +22,10 @@ PROTOCOL="udp"
 UDP_PORT=":36712"
 
 # OBFS
-OBFS="rymr"
+OBFS="rymrs"
 
 # PASSWORDS
-PASSWORD="rymr"
+PASSWORD="rymrs"
 
 # Basename of this script
 SCRIPT_NAME="$(basename "$0")"
@@ -877,7 +877,7 @@ perform_install() {
 							echo
 							echo -e "$(tbold)Congratulation! RSPH-UDP has been successfully installed on your server.$(treset)"
 							echo
-							echo -e "$(tbold)Client app RSPH INJECTOR:$(treset)"
+							echo -e "$(tbold)Client app RSPH VPN:$(treset)"
 							echo -e "$(tblue)https://play.google.com/store/apps/details?id=com.RSPH.injector$(treset)"
 							echo
 							echo -e "Follow me!"
